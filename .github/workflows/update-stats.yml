@@ -22,15 +22,15 @@ jobs:
         with:
           card: stats
           options: >-
-            username=DaSonOfPoseidon
-            &show_icons=true
-            &theme=github_dark
-            &hide_border=true
-            &bg_color=0d1117
-            &title_color=58a6ff
-            &icon_color=58a6ff
-            &text_color=c9d1d9
-            &include_all_commits=true
+            username=DaSonOfPoseidon&
+            show_icons=true&
+            theme=github_dark&
+            hide_border=true&
+            bg_color=0d1117&
+            title_color=58a6ff&
+            icon_color=58a6ff&
+            text_color=c9d1d9&
+            include_all_commits=true
           path: cards/dark/github-stats.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -39,14 +39,14 @@ jobs:
         with:
           card: top-langs
           options: >-
-            username=DaSonOfPoseidon
-            &layout=compact
-            &theme=github_dark
-            &hide_border=true
-            &bg_color=0d1117
-            &title_color=58a6ff
-            &text_color=c9d1d9
-            &include_private=true
+            username=DaSonOfPoseidon&
+            layout=compact&
+            theme=github_dark&
+            hide_border=true&
+            bg_color=0d1117&
+            title_color=58a6ff&
+            text_color=c9d1d9&
+            include_private=true
           path: cards/dark/top-languages.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -56,11 +56,11 @@ jobs:
         with:
           card: stats
           options: >-
-            username=DaSonOfPoseidon
-            &show_icons=true
-            &theme=default
-            &hide_border=true
-            &include_all_commits=true
+            username=DaSonOfPoseidon&
+            show_icons=true&
+            theme=default&
+            hide_border=true&
+            include_all_commits=true
           path: cards/light/github-stats.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -69,11 +69,11 @@ jobs:
         with:
           card: top-langs
           options: >-
-            username=DaSonOfPoseidon
-            &layout=compact
-            &theme=default
-            &hide_border=true
-            &include_private=true
+            username=DaSonOfPoseidon&
+            layout=compact&
+            theme=default&
+            hide_border=true&
+            include_private=true
           path: cards/light/top-languages.svg
           token: ${{ secrets.STATS_TOKEN }}
 
