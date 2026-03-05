@@ -83,9 +83,9 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DaSonOfPoseidon&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="170" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=DaSonOfPoseidon&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" height="170" alt="GitHub Streak" />
+<img src="./cards/dark/github-stats.svg" height="170" alt="GitHub Stats" />
+<img src="./cards/dark/streak-stats.svg" height="170" alt="GitHub Streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaSonOfPoseidon&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="170" alt="Top Languages" />
+<img src="./cards/dark/top-languages.svg" height="170" alt="Top Languages" />
 
 </div>
