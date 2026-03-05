@@ -83,9 +83,18 @@
 
 <div align="center">
 
-<img src="./cards/dark/github-stats.svg" height="170" alt="GitHub Stats" />
-<img src="./cards/dark/streak-stats.svg" height="170" alt="GitHub Streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/github-stats.svg" />
+  <img src="./cards/light/github-stats.svg" height="170" alt="GitHub Stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/streak-stats.svg" />
+  <img src="./cards/light/streak-stats.svg" height="170" alt="GitHub Streak" />
+</picture>
 
-<img src="./cards/dark/top-languages.svg" height="170" alt="Top Languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/top-languages.svg" />
+  <img src="./cards/light/top-languages.svg" height="170" alt="Top Languages" />
+</picture>
 
 </div>
