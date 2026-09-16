@@ -30,12 +30,6 @@ I run a home server that hosts the sites linked above and a couple dozen other c
 | [**action-jackson**](https://github.com/DaSonOfPoseidon/action-jackson) | The site behind actionjacksoninstalls.com and the dev portfolio. A Next.js frontend and Express API serving two domains from one self-hosted deployment. | `Next.js` `Express` `Docker` |
 | [**BrowseShield**](https://github.com/DaSonOfPoseidon/BrowseShield) | Capstone project. A browser extension and web portal that checks websites and emails for threats as you browse and flags them before you click. | `JavaScript` `Manifest V3` `PostgreSQL` |
 
-## Open source I contribute to
-
-| Project | What it is | My contributions |
-|:--------|:-----------|:-----------------|
-| [**EchoMuse**](https://github.com/wilbowes/EchoMuse) | Replaces the Alexa firmware on a 2nd-gen Echo Dot with a small Go server and a Python controller, so the Dot shows up in Home Assistant as a native voice satellite. Wake word, Assist, and TTS all run locally. | I run it on my own Dots. Added mute status reporting to Home Assistant and a software mute for it to drive ([#552](https://github.com/wilbowes/EchoMuse/pull/552)). |
-
 ## Tools I reach for
 
 I learned to program in C and then C#, which is where the fundamentals came from: memory, types, and having to think through control flow before the compiler let me get away with anything. Python took over as my main language once I started building tools for work. It gets me from an annoying task to a working fix faster than anything else, and for the kind of automation I write that matters more than raw speed. JavaScript and TypeScript stay in rotation through the web side of my projects, and I still pick C and C# back up from time to time so they don't go stale.
