@@ -20,16 +20,21 @@ Now I spend by days in meetings and writing SQL queries, but I'm finishing my IT
 
 ## Off the clock
 
-I run a home server that hosts the sites linked above and a couple dozen other containers. Containers opt in to public access with a Docker label, and a tunnel manager I wrote discovers them and sets up the Cloudflare routes. The rest is Home Assistant and a habit of un-clouding hardware I already own: [EchoMuse](https://github.com/DaSonOfPoseidon/EchoMuse) turns old Echo Dots into local voice satellites, and [SoundSleeper](https://github.com/DaSonOfPoseidon/SoundSleeper) with [free-sleep-ha](https://github.com/DaSonOfPoseidon/free-sleep-ha) gives an Eight Sleep pod local control without the subscription.
+I run a home server that hosts the sites linked above and a couple dozen other containers. Containers opt in to public access with a Docker label, and a tunnel manager I wrote discovers them and sets up the Cloudflare routes. The rest is Home Assistant and a habit of un-clouding hardware I already own: I contribute to [EchoMuse](https://github.com/wilbowes/EchoMuse), which turns old Echo Dots into local voice satellites, and [SoundSleeper](https://github.com/DaSonOfPoseidon/SoundSleeper) with [free-sleep-ha](https://github.com/DaSonOfPoseidon/free-sleep-ha) gives an Eight Sleep pod local control without the subscription.
 
 ## Projects
 
 | Project | What it is | Built with |
 |:--------|:-----------|:-----------|
-| [**EchoMuse**](https://github.com/DaSonOfPoseidon/EchoMuse) | Replaces the Alexa firmware on a 2nd-gen Echo Dot with a small Go server and pairs it with a Python controller, so the Dot shows up in Home Assistant as a native voice satellite. Wake word, Assist, and TTS all run locally, and you can train your own wake words. | `Go` `Python` `Home Assistant` `openWakeWord` |
 | [**CalendarBuddy**](https://github.com/DaSonOfPoseidon/Public-CalendarBuddy) | A stripped-down public demo of the work automation that replaced roughly 40 hours a week of manual install documentation. Scrapes jobs, processes them in the background, and streams progress to the browser as it goes. | `FastAPI` `Celery` `PostgreSQL` `Redis` |
 | [**action-jackson**](https://github.com/DaSonOfPoseidon/action-jackson) | The site behind actionjacksoninstalls.com and the dev portfolio. A Next.js frontend and Express API serving two domains from one self-hosted deployment. | `Next.js` `Express` `Docker` |
 | [**BrowseShield**](https://github.com/DaSonOfPoseidon/BrowseShield) | Capstone project. A browser extension and web portal that checks websites and emails for threats as you browse and flags them before you click. | `JavaScript` `Manifest V3` `PostgreSQL` |
+
+## Open source I contribute to
+
+| Project | What it is | My contributions |
+|:--------|:-----------|:-----------------|
+| [**EchoMuse**](https://github.com/wilbowes/EchoMuse) | Replaces the Alexa firmware on a 2nd-gen Echo Dot with a small Go server and a Python controller, so the Dot shows up in Home Assistant as a native voice satellite. Wake word, Assist, and TTS all run locally. | I run it on my own Dots. Added mute status reporting to Home Assistant and a software mute for it to drive ([#552](https://github.com/wilbowes/EchoMuse/pull/552)). |
 
 ## Tools I reach for
 
