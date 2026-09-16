@@ -20,7 +20,7 @@ Now I spend by days in meetings and writing SQL queries, but I'm finishing my IT
 
 ## Off the clock
 
-I run a home server that hosts the sites linked above and a couple dozen other containers. Containers opt in to public access with a Docker label, and a tunnel manager I wrote discovers them and sets up the Cloudflare routes. The rest is Home Assistant and a habit of un-clouding hardware I already own: I contribute to [EchoMuse](https://github.com/wilbowes/EchoMuse), which turns old Echo Dots into local voice satellites, and [SoundSleeper](https://github.com/DaSonOfPoseidon/SoundSleeper) with [free-sleep-ha](https://github.com/DaSonOfPoseidon/free-sleep-ha) gives an Eight Sleep pod local control without the subscription.
+I run a home server that hosts the sites linked above and a couple dozen other containers. Containers opt in to public access with a Docker label, and a tunnel manager I wrote discovers them and sets up the Cloudflare routes. The rest is Home Assistant and a habit of un-clouding hardware I already own: I run [EchoMuse](https://github.com/wilbowes/EchoMuse), which turns old Echo Dots into local voice satellites, and recently sent my first PR upstream. [SoundSleeper](https://github.com/DaSonOfPoseidon/SoundSleeper) with [free-sleep-ha](https://github.com/DaSonOfPoseidon/free-sleep-ha) gives an Eight Sleep pod local control without the subscription.
 
 ## Projects
 
